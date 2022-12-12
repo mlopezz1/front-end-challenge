@@ -29,6 +29,12 @@ export const typography = {
     line-height: 1.25rem;
     font-feature-settings: 'tnum' on, 'lnum' on;
   `,
+  body2Medium: css`
+    font-weight: ${({ theme }) => theme.weight.medium};
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+  `,
   caption: css`
     font-size: 0.75rem;
     line-height: 1rem;
