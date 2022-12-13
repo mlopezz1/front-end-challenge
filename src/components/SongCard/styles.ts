@@ -9,7 +9,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   padding: 16px;
-  
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
