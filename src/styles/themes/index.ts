@@ -11,6 +11,7 @@ const theme = {
     grayscale100: '#E0DDE4',
     grayscale50: '#F7F6F8',
     malibu100: '#E1F4FB',
+    transparent: 'rgba(0,0,0,0)',
   },
   weight: {
     bold: 700,

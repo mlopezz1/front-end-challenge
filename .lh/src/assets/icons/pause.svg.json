@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/assets/icons/pause.svg",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1670929705830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670929714398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n-<path d=\"M10 4H6V20H10V4Z\" fill=\"#22223D\"/>\n+<path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929725908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n+<svg width=\"current\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n <path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929738399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-<svg width=\"current\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n+<svg width=\"current\" height=\"current\" viewBox=\"current\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n <path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929791657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-<svg width=\"current\" height=\"current\" viewBox=\"current\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n+<svg width=\"current\" height=\"current\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n <path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929806227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-<svg width=\"current\" height=\"current\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n+<svg width=\"16\" height=\"current\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n <path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n <path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929823793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-<svg width=\"16\" height=\"current\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n-<path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n-<path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n+<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n+<path d=\"M18 4H14V20H18V4Z\" fill=\"#22223D\"/>\n+<path d=\"M10 4H6V20H10V4Z\" fill=\"#22223D\"/>\n </svg>\n"
+                },
+                {
+                    "date": 1670929829622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n-<path d=\"M18 4H14V20H18V4Z\" fill=\"#22223D\"/>\n-<path d=\"M10 4H6V20H10V4Z\" fill=\"#22223D\"/>\n+<path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n+<path d=\"M10 4H6V20H10V4Z\" fill=\"current\"/>\n </svg>\n"
+                }
+            ],
+            "date": 1670929705830,
+            "name": "Commit-0",
+            "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18 4H14V20H18V4Z\" fill=\"current\"/>\n<path d=\"M10 4H6V20H10V4Z\" fill=\"#22223D\"/>\n</svg>\n"
+        }
+    ]
+}

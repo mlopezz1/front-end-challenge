@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/SongCard/LikeButton/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1670929970494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670929976024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n \n+const LikeButton:\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929981742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \n-const LikeButton:\n\\ No newline at end of file\n+const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929986804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n+import { FC } from \"react\";\n+import { Props } from \"../types\";\n \n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929992867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n import { FC } from \"react\";\n-import { Props } from \"../types\";\n+import { Props } from \"./types\";\n \n+\n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929999967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n import { FC } from \"react\";\n import { Props } from \"./types\";\n+import { LikeIcon, LikeIconActive,  } from \"./styles\";\n \n-\n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930007993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { FC } from \"react\";\n import { Props } from \"./types\";\n-import { LikeIcon, LikeIconActive,  } from \"./styles\";\n+import { LikeIcon, LikeIconActive, LikeButton, Container } from \"./styles\";\n \n\\ No newline at end of file\n-const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n+const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930013092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,8 @@\n import { Props } from \"./types\";\n import { LikeIcon, LikeIconActive, LikeButton, Container } from \"./styles\";\n \n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n-    \n\\ No newline at end of file\n+    <Container>\n+        <LikeButton onClick={onClick}>\n+            {isLiked ? <LikeIconActive /> : <LikeIcon />}\n+            \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930019043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,14 @@\n-import { FC } from \"react\";\n-import { Props } from \"./types\";\n-import { LikeIcon, LikeIconActive, LikeButton, Container } from \"./styles\";\n+import { FC } from 'react';\n \n+import { Container, LikeButton, LikeIcon, LikeIconActive } from './styles';\n+import { Props } from './types';\n+\n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n\\ No newline at end of file\n-    <Container>\n-        <LikeButton onClick={onClick}>\n-            {isLiked ? <LikeIconActive /> : <LikeIcon />}\n-            \n+  <Container>\n+    <LikeButton onClick={onClick}>\n+      {isLiked ? <LikeIconActive /> : <LikeIcon />}\n+    </LikeButton>\n+  </Container>\n+);\n+\n+ex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930042427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { FC } from 'react';\n \n-import { Container, LikeButton, LikeIcon, LikeIconActive } from './styles';\n+import { Container, Button, LikeIcon, LikeIconActive } from './styles';\n import { Props } from './types';\n \n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n   <Container>\n@@ -10,5 +10,5 @@\n     </LikeButton>\n   </Container>\n );\n \n-ex\n\\ No newline at end of file\n+export default LikeButton;\n"
+                },
+                {
+                    "date": 1670930048697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n import { FC } from 'react';\n \n-import { Container, Button, LikeIcon, LikeIconActive } from './styles';\n+import { Button, Container, LikeIcon, LikeIconActive } from './styles';\n import { Props } from './types';\n \n const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n   <Container>\n-    <LikeButton onClick={onClick}>\n+    <Button onClick={onClick}>\n       {isLiked ? <LikeIconActive /> : <LikeIcon />}\n-    </LikeButton>\n+    </Button>\n   </Container>\n );\n \n export default LikeButton;\n"
+                },
+                {
+                    "date": 1670930068078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import { Button, Container, LikeIcon, LikeIconActive } from './styles';\n import { Props } from './types';\n \n-const LikeButton: FC<Props> = ({ isLiked, onClick }) => (\n+const LikeButton: FC<Props> = ({ isLiked, onClick, className }) => (\n   <Container>\n     <Button onClick={onClick}>\n       {isLiked ? <LikeIconActive /> : <LikeIcon />}\n     </Button>\n"
+                },
+                {
+                    "date": 1670930074469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { Button, Container, LikeIcon, LikeIconActive } from './styles';\n import { Props } from './types';\n \n const LikeButton: FC<Props> = ({ isLiked, onClick, className }) => (\n-  <Container>\n+  <Container className={c}>\n     <Button onClick={onClick}>\n       {isLiked ? <LikeIconActive /> : <LikeIcon />}\n     </Button>\n   </Container>\n"
+                }
+            ],
+            "date": 1670929970494,
+            "name": "Commit-0",
+            "content": "\n"
+        }
+    ]
+}

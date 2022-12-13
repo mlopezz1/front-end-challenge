@@ -1,0 +1,74 @@
+{
+    "sourceFile": "src/components/SongCard/Controls/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1670929079214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670929084546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \n-export const \n\\ No newline at end of file\n+export const Controls: FC<Props> = ({ className }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929091347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n+import { FC } from \"react\";\n \n export const Controls: FC<Props> = ({ className }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929096539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n import { FC } from \"react\";\n+import { Props } from \"./types\";\n \n export const Controls: FC<Props> = ({ className }) => (\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670929104775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n import { FC } from \"react\";\n import { Props } from \"./types\";\n \n-export const Controls: FC<Props> = ({ className }) => (\n\\ No newline at end of file\n+\n+export const Controls: FC<Props> = ({ className }) => (\n"
+                },
+                {
+                    "date": 1670929110309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { FC } from \"react\";\n import { Props } from \"./types\";\n+import { Container, PlayButton, PlayIcon, Duration } from \"./styles\";\n \n-\n export const Controls: FC<Props> = ({ className }) => (\n+    \n"
+                },
+                {
+                    "date": 1670929115882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,10 @@\n import { Props } from \"./types\";\n import { Container, PlayButton, PlayIcon, Duration } from \"./styles\";\n \n export const Controls: FC<Props> = ({ className }) => (\n-    \n+    <Container className={className}>\n+        <PlayButton>\n+            <PlayIcon />\n+        </PlayButton>\n+        <Duration tag=\"p\">3:30</Duration>\n+        \n"
+                },
+                {
+                    "date": 1670929165301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n-import { FC } from \"react\";\n-import { Props } from \"./types\";\n-import { Container, PlayButton, PlayIcon, Duration } from \"./styles\";\n+import { FC } from 'react';\n \n-export const Controls: FC<Props> = ({ className }) => (\n-    <Container className={className}>\n-        <PlayButton>\n-            <PlayIcon />\n-        </PlayButton>\n-        <Duration tag=\"p\">3:30</Duration>\n-        \n+import { Container, Duration, PlayButton, PlayIcon } from './styles';\n+import { Props } from './types';\n+\n+export const Controls: FC<Props> = ({ .className }) => (\n+  <Container className={className}>\n+    <PlayButton>\n+      <PlayIcon />\n+    </PlayButton>\n+    <Duration tag=\"p\">3:30</Duration>\n+  </Container>\n+);\n"
+                },
+                {
+                    "date": 1670929170832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import { Container, Duration, PlayButton, PlayIcon } from './styles';\n import { Props } from './types';\n \n-export const Controls: FC<Props> = ({ .className }) => (\n+export const Controls: FC<Props> = ({ is,className }) => (\n   <Container className={className}>\n     <PlayButton>\n       <PlayIcon />\n     </PlayButton>\n"
+                },
+                {
+                    "date": 1670929176912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import { Container, Duration, PlayButton, PlayIcon } from './styles';\n import { Props } from './types';\n \n-export const Controls: FC<Props> = ({ is,className }) => (\n+export const Controls: FC<Props> = ({ isPlaying, category, duration,className }) => (\n   <Container className={className}>\n     <PlayButton>\n       <PlayIcon />\n     </PlayButton>\n"
+                },
+                {
+                    "date": 1670929209785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,17 @@\n \n import { Container, Duration, PlayButton, PlayIcon } from './styles';\n import { Props } from './types';\n \n-export const Controls: FC<Props> = ({ isPlaying, category, duration,className }) => (\n+export const Controls: FC<Props> = ({\n+  isPlaying,\n+  category,\n+  duration,\n+  className,\n+}) => (\n   <Container className={className}>\n     <PlayButton>\n       <PlayIcon />\n     </PlayButton>\n-    <Duration tag=\"p\">3:30</Duration>\n+    <Duration tag=\"p\">{d}</Duration>\n   </Container>\n );\n"
+                },
+                {
+                    "date": 1670929250734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { FC } from 'react';\n \n-import { Container, Duration, PlayButton, PlayIcon } from './styles';\n+import { Container, Duration, PlayButton, PlayIcon, Ca } from './styles';\n import { Props } from './types';\n \n export const Controls: FC<Props> = ({\n   isPlaying,\n@@ -12,7 +12,7 @@\n   <Container className={className}>\n     <PlayButton>\n       <PlayIcon />\n     </PlayButton>\n-    <Duration tag=\"p\">{d}</Duration>\n+    <Duration tag=\"p\">{duration}</Duration>\n   </Container>\n );\n"
+                },
+                {
+                    "date": 1670929257342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,14 @@\n import { FC } from 'react';\n \n-import { Container, Duration, PlayButton, PlayIcon, Ca } from './styles';\n+import {\n+  Category,\n+  CategoryContainer,\n+  Container,\n+  Duration,\n+  PlayButton,\n+  PlayIcon,\n+} from './styles';\n import { Props } from './types';\n \n export const Controls: FC<Props> = ({\n   isPlaying,\n"
+                },
+                {
+                    "date": 1670929263265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,9 @@\n     <PlayButton>\n       <PlayIcon />\n     </PlayButton>\n     <Duration tag=\"p\">{duration}</Duration>\n+    <CategoryContainer>\n+        <Category tag=\"p\">{category}</Category>\n+        \n   </Container>\n );\n"
+                },
+                {
+                    "date": 1670929275201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   className,\n }) => (\n   <Container className={className}>\n     <PlayButton>\n-      \n+      {}\n     </PlayButton>\n     <Duration tag=\"p\">{duration}</Duration>\n     <CategoryContainer>\n       <Category tag=\"p\">{category}</Category>\n"
+                }
+            ],
+            "date": 1670929079214,
+            "name": "Commit-0",
+            "content": "\nexport const "
+        }
+    ]
+}

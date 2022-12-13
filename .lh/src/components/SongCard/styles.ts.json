@@ -1,0 +1,322 @@
+{
+    "sourceFile": "src/components/SongCard/styles.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 76,
+            "patches": [
+                {
+                    "date": 1670927241778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670927249181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n export const Image = styled.img`\n   aspect-ratio: 1;\n   width: 148px;\n-  12px\n+  border-radius: 12px;\n `;\n \n export const InfoContainer = styled.div`\n   margin-left: 20px;\n"
+                },
+                {
+                    "date": 1670927302232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n `;\n \n export const InfoContainer = styled.div`\n   margin-left: 20px;\n-  flex: 2;\n+  flex: 1;\n `;\n \n export const Title = styled(DefaultText).attrs({\n   variant: 'bodyBold',\n"
+                },
+                {
+                    "date": 1670927475271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,4 +96,5 @@\n   background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n export const LikeIcon = styled(PlayIconBase)``;\n+ex\n"
+                },
+                {
+                    "date": 1670927483132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,6 @@\n   background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n export const LikeIcon = styled(PlayIconBase)``;\n-ex\n+\n+export const \n"
+                },
+                {
+                    "date": 1670927520946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+import { Text as DefaultText } from '$/components/Text';\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n   position: relative;\n@@ -97,5 +97,5 @@\n `;\n \n export const LikeIcon = styled(PlayIconBase)``;\n \n-export const \n+export const LikeIconActive = styled(PlayIconBase)`\n"
+                },
+                {
+                    "date": 1670927528092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+import PlayIconBase from '$/assets/icons/play-fill.svg';import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n   position: relative;\n"
+                },
+                {
+                    "date": 1670927577976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-import PlayIconBase from '$/assets/icons/play-fill.svg';import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927671760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n+// // import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927747680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-// // import PlayIconBase from '$/assets/icons/play-fill.svg';\n+// import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927782261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-// import PlayIconBase from '$/assets/icons/play-fill.svg';\n+// import PlayIconBase from '$/assets/icons/play-fill.svg';/*  */\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927787459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-// import PlayIconBase from '$/assets/icons/play-fill.svg';/*  */\n+// import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927792793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-// import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927801930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import HeartIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927810118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartIconBase from '$/assets/icons/play-fill.svg';\n+import HeartOutlineIconBase from '$/assets/icons/g';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927816331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/g';\n+import HeartOutlineIconBase from '$/assets/icons/heart-outlin';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927827931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-outlin';\n+import HeartOutlineIconBase from '$/assets/icons/heart-HeartOutlineIconBase';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927866526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-HeartOutlineIconBase';\n+import HeartOutlineIconBase from '$/assets/icons/';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927882187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/';\n+import HeartOutlineIconBase from '$/assets/icons';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927901808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons';\n+import HeartOutlineIconBase from '$/assets/icons/heart-';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927907455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-';\n+import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n+import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927914861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n+import HeartIconBase from '$/assets/icons/heart-outline.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670927921904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n-import HeartIconBase from '$/assets/icons/heart-outline.svg';\n+import HeartIconBase from '$/assets/icons/heart-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n@@ -97,7 +97,7 @@\n   border-radius: 50%;\n   background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n-export const LikeIcon = styled(PlayIconBase)``;\n+export const LikeIcon = styled(He)``;\n \n export const LikeIconActive = styled(PlayIconBase)`\n"
+                },
+                {
+                    "date": 1670927927391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,7 +97,7 @@\n   border-radius: 50%;\n   background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n-export const LikeIcon = styled(He)``;\n+export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n export const LikeIconActive = styled(PlayIconBase)`\n"
+                },
+                {
+                    "date": 1670927933104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,5 +99,5 @@\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n-export const LikeIconActive = styled(PlayIconBase)`\n+export const LikeIconActive = styled(HeartIconBase)`\n"
+                },
+                {
+                    "date": 1670927946369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n+import HeartIconBase from '$/assets/icons/heart-fill.svg';\n+import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n-import HeartIconBase from '$/assets/icons/heart-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n@@ -99,5 +99,5 @@\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n-export const LikeIconActive = styled(HeartIconBase)`\n+export const LikeIconActive = styled(HeartIconBase)``;\n"
+                },
+                {
+                    "date": 1670928053674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,102 @@\n+import HeartIconBase from '$/assets/icons/heart-fill.svg';\n+import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import { Text as DefaultText } from '$/components/Text';\n+import styled from 'styled-components';\n+\n+export const Container = styled.div`\n+  position: relative;\n+  display: flex;\n+  flex-direction: row;\n+`;\n+\n+export const Image = styled.img`\n+  aspect-ratio: 1;\n+  width: 148px;\n+  border-radius: 12px;\n+`;\n+\n+export const InfoContainer = styled.div`\n+  margin-left: 20px;\n+  flex: 1;\n+`;\n+\n+export const Title = styled(DefaultText).attrs({\n+  variant: 'bodyBold',\n+  color: 'grayscale900',\n+})``;\n+\n+export const Artist = styled(DefaultText).attrs({\n+  variant: 'body2Medium',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale700};\n+  margin-top: 4px;\n+`;\n+\n+export const Description = styled(DefaultText).attrs({\n+  variant: 'body2',\n+  maxLines: 2,\n+})`\n+  color: ${({ theme }) => theme.color.grayscale700};\n+  margin-top: 4px;\n+`;\n+\n+export const ControlsContainer = styled.div`\n+  display: flex;\n+  flex-direction: row;\n+  align-items: center;\n+  margin-top: 12px;\n+  gap: 12px;\n+`;\n+\n+export const PlayButton = styled.button`\n+  display: flex;\n+  align-items: center;\n+  justify-content: center;\n+  width: 40px;\n+  height: 40px;\n+  border-radius: 50%;\n+  background-color: ${({ theme }) => theme.color.grayscale900};\n+`;\n+\n+export const PlayIcon = styled(PlayIconBase)`\n+  color: ${({ theme }) => theme.color.white};\n+`;\n+\n+export const Duration = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale700};\n+`;\n+\n+export const CategoryContainer = styled.div`\n+  background-color: ${({ theme }) => theme.color.malibu100};\n+  padding: 4px 8px;\n+  border-radius: 47px;\n+`;\n+\n+export const Category = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale900};\n+`;\n+\n+export const LikeContainer = styled.div`\n+  display: flex;\n+  align-items: center;\n+  justify-content: flex-end;\n+  flex: 1;\n+`;\n+\n+export const LikeButton = styled.button`\n+  display: flex;\n+  align-items: center;\n+  justify-content: center;\n+  width: 40px;\n+  height: 40px;\n+  border-radius: 50%;\n+`;\n+\n+export const LikeIcon = styled(HeartOutlineIconBase)``;\n+\n+export const LikeIconActive = styled(HeartIconBase)``;\n"
+                },
+                {
+                    "date": 1670928059324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,115 +91,9 @@\n export const LikeButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n export const LikeIconActive = styled(HeartIconBase)``;\n-import HeartIconBase from '$/assets/icons/heart-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import { Text as DefaultText } from '$/components/Text';\n-import styled from 'styled-components';\n-\n-export const Container = styled.div`\n-  position: relative;\n-  display: flex;\n-  flex-direction: row;\n-`;\n-\n-export const Image = styled.img`\n-  aspect-ratio: 1;\n-  width: 148px;\n-  border-radius: 12px;\n-`;\n-\n-export const InfoContainer = styled.div`\n-  margin-left: 20px;\n-  flex: 1;\n-`;\n-\n-export const Title = styled(DefaultText).attrs({\n-  variant: 'bodyBold',\n-  color: 'grayscale900',\n-})``;\n-\n-export const Artist = styled(DefaultText).attrs({\n-  variant: 'body2Medium',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale700};\n-  margin-top: 4px;\n-`;\n-\n-export const Description = styled(DefaultText).attrs({\n-  variant: 'body2',\n-  maxLines: 2,\n-})`\n-  color: ${({ theme }) => theme.color.grayscale700};\n-  margin-top: 4px;\n-`;\n-\n-export const ControlsContainer = styled.div`\n-  display: flex;\n-  flex-direction: row;\n-  align-items: center;\n-  margin-top: 12px;\n-  gap: 12px;\n-`;\n-\n-export const PlayButton = styled.button`\n-  display: flex;\n-  align-items: center;\n-  justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n-  background-color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const PlayIcon = styled(PlayIconBase)`\n-  color: ${({ theme }) => theme.color.white};\n-`;\n-\n-export const Duration = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale700};\n-`;\n-\n-export const CategoryContainer = styled.div`\n-  background-color: ${({ theme }) => theme.color.malibu100};\n-  padding: 4px 8px;\n-  border-radius: 47px;\n-`;\n-\n-export const Category = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const LikeContainer = styled.div`\n-  display: flex;\n-  align-items: center;\n-  justify-content: flex-end;\n-  flex: 1;\n-`;\n-\n-export const LikeButton = styled.button`\n-  display: flex;\n-  align-items: center;\n-  justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n-  background-color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const LikeIcon = styled(HeartOutlineIconBase)``;\n-\n-export const LikeIconActive = styled(HeartIconBase)``;\n"
+                },
+                {
+                    "date": 1670928065577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,9 @@\n export const LikeButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n+  \n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n"
+                },
+                {
+                    "date": 1670928077356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,12 @@\n export const LikeButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n-  \n+  width: 40px;\n+  height: 40px;\n+  border-radius: 50%;\n+  background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n"
+                },
+                {
+                    "date": 1670928085251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n   justify-content: center;\n   width: 40px;\n   height: 40px;\n   border-radius: 50%;\n-  background-color: ${({ theme }) => theme.color.grayscale900};\n+  background-color: ${({ theme }) => theme.color.transparent};\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n \n"
+                },
+                {
+                    "date": 1670928145059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,11 +91,9 @@\n export const LikeButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n+  \n   background-color: ${({ theme }) => theme.color.transparent};\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n"
+                },
+                {
+                    "date": 1670930986729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n export const Container = styled.div`\n   position: relative;\n   display: flex;\n   flex-direction: row;\n+\n+  \n `;\n \n export const Image = styled.img`\n   aspect-ratio: 1;\n@@ -91,9 +93,9 @@\n export const LikeButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n-  \n+  border: unset;\n   background-color: ${({ theme }) => theme.color.transparent};\n `;\n \n export const LikeIcon = styled(HeartOutlineIconBase)``;\n"
+                },
+                {
+                    "date": 1670930995817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n \n-  \n+  @media screen as {\n+    \n+  }\n `;\n \n export const Image = styled.img`\n   aspect-ratio: 1;\n"
+                },
+                {
+                    "date": 1670931001035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n \n-  @media screen as {\n+  @media screen and () {\n     \n   }\n `;\n \n"
+                },
+                {
+                    "date": 1670931006702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n \n-  @media screen and () {\n+  @media screen and (min-width: ;) {\n     \n   }\n `;\n \n"
+                },
+                {
+                    "date": 1670931019035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n \n-  @media screen and (min-width: ;) {\n+  @media screen and (min-width: 768px) {\n     \n   }\n `;\n \n"
+                },
+                {
+                    "date": 1670931026444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   display: flex;\n   flex-direction: row;\n \n   @media screen and (min-width: 768px) {\n-    \n+    fle\n   }\n `;\n \n export const Image = styled.img`\n"
+                },
+                {
+                    "date": 1670931077924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n \n-  @media screen and (min-width: 768px) {\n-    fle\n+  @media screen and (max-width: 768px) {\n+    flex-direction: column;\n   }\n `;\n \n export const Image = styled.img`\n"
+                },
+                {
+                    "date": 1670931084401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n   flex-direction: row;\n \n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n+    a\n   }\n `;\n \n export const Image = styled.img`\n"
+                },
+                {
+                    "date": 1670931109491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n   flex-direction: row;\n \n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n-    a\n+    align-items: center;\n+    gap: \n   }\n `;\n \n export const Image = styled.img`\n"
+                },
+                {
+                    "date": 1670931115360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n     align-items: center;\n-    gap: \n+    gap: 12px;\n   }\n `;\n \n export const Image = styled.img`\n"
+                },
+                {
+                    "date": 1670931133040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,62 +46,4 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n-export const ControlsContainer = styled.div`\n-  display: flex;\n-  flex-direction: row;\n-  align-items: center;\n-  margin-top: 12px;\n-  gap: 12px;\n-`;\n-\n-export const PlayButton = styled.button`\n-  display: flex;\n-  align-items: center;\n-  justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n-  background-color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const PlayIcon = styled(PlayIconBase)`\n-  color: ${({ theme }) => theme.color.white};\n-`;\n-\n-export const Duration = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale700};\n-`;\n-\n-export const CategoryContainer = styled.div`\n-  background-color: ${({ theme }) => theme.color.malibu100};\n-  padding: 4px 8px;\n-  border-radius: 47px;\n-`;\n-\n-export const Category = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const LikeContainer = styled.div`\n-  display: flex;\n-  align-items: center;\n-  justify-content: flex-end;\n-  flex: 1;\n-`;\n-\n-export const LikeButton = styled.button`\n-  display: flex;\n-  align-items: center;\n-  justify-content: center;\n-  border: unset;\n-  background-color: ${({ theme }) => theme.color.transparent};\n-`;\n-\n-export const LikeIcon = styled(HeartOutlineIconBase)``;\n-\n-export const LikeIconActive = styled(HeartIconBase)``;\n"
+                },
+                {
+                    "date": 1670931145864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,4 +46,8 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n+export const ControlsContainer = styled.div`\n+  display: flex;\n+  flex-direction: row;\n+  \n"
+                },
+                {
+                    "date": 1670931160328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,5 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n-export const ControlsContainer = styled.div`\n-  display: flex;\n-  flex-direction: row;\n-  \n+\n"
+                },
+                {
+                    "date": 1670931166226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,5 +46,5 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n-\n+export const Controls\n"
+                },
+                {
+                    "date": 1670931174330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,5 +46,5 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n-export const Controls\n+export const Controls = styled(ControlsBase)`\n"
+                },
+                {
+                    "date": 1670931180211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n-import HeartIconBase from '$/assets/icons/heart-fill.svg';\n-import HeartOutlineIconBase from '$/assets/icons/heart-outline.svg';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n+\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n@@ -46,5 +44,5 @@\n   color: ${({ theme }) => theme.color.grayscale700};\n   margin-top: 4px;\n `;\n \n-export const Controls = styled(ControlsBase)`\n+export const Controls = styled(ControlsBase)``;\n"
+                },
+                {
+                    "date": 1670931186031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+import ControlsBase from\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670931198597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-import ControlsBase from\n+import ControlsBase from './Controls';\n+import ControlsBase from './Controls';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670931206581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import ControlsBase from './Controls';\n-import ControlsBase from './Controls';\n+import LikeButton from './LikeButton';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670931211637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import ControlsBase from './Controls';\n-import LikeButton from './LikeButton';\n+import LikeButtonBase from './LikeButton';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n@@ -46,4 +46,5 @@\n   margin-top: 4px;\n `;\n \n export const Controls = styled(ControlsBase)``;\n+export const Controls = styled(ControlsBase)``;\n"
+                },
+                {
+                    "date": 1670931218325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,5 +46,5 @@\n   margin-top: 4px;\n `;\n \n export const Controls = styled(ControlsBase)``;\n-export const Controls = styled(ControlsBase)``;\n+export const LikeButton = styled(LikeBu)``;\n"
+                },
+                {
+                    "date": 1670931230983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-import ControlsBase from './Controls';\n-import LikeButtonBase from './LikeButton';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n+import ControlsBase from './Controls';\n+import LikeButtonBase from './LikeButton';\n+\n export const Container = styled.div`\n   position: relative;\n   display: flex;\n   flex-direction: row;\n@@ -46,5 +47,5 @@\n   margin-top: 4px;\n `;\n \n export const Controls = styled(ControlsBase)``;\n-export const LikeButton = styled(LikeBu)``;\n+export const LikeButton = styled(LikeButtonBase)``;\n"
+                },
+                {
+                    "date": 1670931299428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,5 +47,7 @@\n   margin-top: 4px;\n `;\n \n export const Controls = styled(ControlsBase)``;\n-export const LikeButton = styled(LikeButtonBase)``;\n+export const LikeButton = styled(LikeButtonBase)`\n+\n+`;\n"
+                },
+                {
+                    "date": 1670931307590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,10 @@\n `;\n \n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n-\n+@media screen and (max-width: 768px) {\n+  flex-direction: column;\n+  align-items: center;\n+  gap: 12px;\n+}\n `;\n"
+                },
+                {
+                    "date": 1670931315717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,10 +48,8 @@\n `;\n \n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n-@media screen and (max-width: 768px) {\n-  flex-direction: column;\n-  align-items: center;\n-  gap: 12px;\n-}\n+  @media screen and (max-width: 768px) {\n+    posi\n+  }\n `;\n"
+                },
+                {
+                    "date": 1670931321700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,7 +49,8 @@\n \n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n-    posi\n+    position: absolute;\n+    b\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931327284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,7 +50,7 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    b\n+    bottom: 1%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931335021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,7 +50,7 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    bottom: 1%;\n+    bottom: 2%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931342727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,6 +51,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 2%;\n+    \n   }\n `;\n"
+                },
+                {
+                    "date": 1670931363306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n export const Container = styled.div`\n   position: relative;\n   display: flex;\n   flex-direction: row;\n+  back\n \n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n     align-items: center;\n@@ -51,7 +52,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 2%;\n-    \n+    right: 2%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931369563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,9 @@\n export const Container = styled.div`\n   position: relative;\n   display: flex;\n   flex-direction: row;\n-  back\n-\n+  background-color: ${({ theme }) => theme.color.grayscale100};\n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n     align-items: center;\n     gap: 12px;\n"
+                },
+                {
+                    "date": 1670931395359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   position: relative;\n   display: flex;\n   flex-direction: row;\n   background-color: ${({ theme }) => theme.color.grayscale100};\n+  padding: 16px;\n   @media screen and (max-width: 768px) {\n     flex-direction: column;\n     align-items: center;\n     gap: 12px;\n@@ -22,9 +23,8 @@\n   border-radius: 12px;\n `;\n \n export const InfoContainer = styled.div`\n-  margin-left: 20px;\n   flex: 1;\n `;\n \n export const Title = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670931400631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,11 @@\n `;\n \n export const InfoContainer = styled.div`\n   flex: 1;\n+  margin-left: 20px;\n+  \n+  \n `;\n \n export const Title = styled(DefaultText).attrs({\n   variant: 'bodyBold',\n"
+                },
+                {
+                    "date": 1670931421833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,10 +25,12 @@\n \n export const InfoContainer = styled.div`\n   flex: 1;\n   margin-left: 20px;\n-  \n-  \n+\n+  @media screen and (max-width: 768px) {\n+    margin-left: 0;\n+  }\n `;\n \n export const Title = styled(DefaultText).attrs({\n   variant: 'bodyBold',\n"
+                },
+                {
+                    "date": 1670931431262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,8 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    bottom: 2%;\n+    bottom: 25;\n     right: 2%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931437803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,8 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    bottom: 25;\n+    bottom: 2px;\n     right: 2%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931446382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,8 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    bottom: 2px;\n+    bottom: 3%;\n     right: 2%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931452721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 3%;\n-    right: 2%;\n+    right: ;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931503493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 3%;\n-    right: ;\n+    right: 3%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931511746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,8 @@\n export const Controls = styled(ControlsBase)``;\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n-    bottom: 3%;\n-    right: 3%;\n+    bottom: 5%;\n+    right: 5%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931523055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 5%;\n-    right: 5%;\n+    right: ;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931536223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 5%;\n-    right: ;\n+    right: 16px;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931557528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 5%;\n-    right: 16px;\n+    right: 3;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931570393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n \n export const InfoContainer = styled.div`\n   flex: 1;\n   margin-left: 20px;\n+  bac\n \n   @media screen and (max-width: 768px) {\n     margin-left: 0;\n   }\n@@ -56,7 +57,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 5%;\n-    right: 3;\n+    right: 3%;\n   }\n `;\n"
+                },
+                {
+                    "date": 1670931585093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,7 @@\n export const LikeButton = styled(LikeButtonBase)`\n   @media screen and (max-width: 768px) {\n     position: absolute;\n     bottom: 5%;\n-    right: 16;\n+    right: 16p;\n   }\n `;\n"
+                }
+            ],
+            "date": 1670927241778,
+            "name": "Commit-0",
+            "content": "import PlayIconBase from '$/assets/icons/play-fill.svg';\nimport { Text as DefaultText } from '$/components/Text';\nimport styled from 'styled-components';\n\nexport const Container = styled.div`\n  position: relative;\n  display: flex;\n  flex-direction: row;\n`;\n\nexport const Image = styled.img`\n  aspect-ratio: 1;\n  width: 148px;\n  12px\n`;\n\nexport const InfoContainer = styled.div`\n  margin-left: 20px;\n  flex: 2;\n`;\n\nexport const Title = styled(DefaultText).attrs({\n  variant: 'bodyBold',\n  color: 'grayscale900',\n})``;\n\nexport const Artist = styled(DefaultText).attrs({\n  variant: 'body2Medium',\n})`\n  color: ${({ theme }) => theme.color.grayscale700};\n  margin-top: 4px;\n`;\n\nexport const Description = styled(DefaultText).attrs({\n  variant: 'body2',\n  maxLines: 2,\n})`\n  color: ${({ theme }) => theme.color.grayscale700};\n  margin-top: 4px;\n`;\n\nexport const ControlsContainer = styled.div`\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  margin-top: 12px;\n  gap: 12px;\n`;\n\nexport const PlayButton = styled.button`\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background-color: ${({ theme }) => theme.color.grayscale900};\n`;\n\nexport const PlayIcon = styled(PlayIconBase)`\n  color: ${({ theme }) => theme.color.white};\n`;\n\nexport const Duration = styled(DefaultText).attrs({\n  variant: 'caption',\n})`\n  color: ${({ theme }) => theme.color.grayscale700};\n`;\n\nexport const CategoryContainer = styled.div`\n  background-color: ${({ theme }) => theme.color.malibu100};\n  padding: 4px 8px;\n  border-radius: 47px;\n`;\n\nexport const Category = styled(DefaultText).attrs({\n  variant: 'caption',\n})`\n  color: ${({ theme }) => theme.color.grayscale900};\n`;\n\nexport const LikeContainer = styled.div`\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  flex: 1;\n`;\n\nexport const LikeButton = styled.button`\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background-color: ${({ theme }) => theme.color.grayscale900};\n`;\n\nexport const LikeIcon = styled(PlayIconBase)``;\n"
+        }
+    ]
+}

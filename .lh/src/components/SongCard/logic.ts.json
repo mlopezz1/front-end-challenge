@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/SongCard/logic.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1670930344345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670930349408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \n-const logi\n\\ No newline at end of file\n+const useLogic = (props: Props) => {\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930355389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,17 @@\n \n-const useLogic = (props: Props) => {\n\\ No newline at end of file\n+const useLogic = (props: Props) => {\n+    const { isLiked, onClick, className } = props;\n+    \n+    const [isLikedState, setIsLikedState] = useState(isLiked);\n+    \n+    const handleClick = useCallback(() => {\n+        setIsLikedState(!isLikedState);\n+        onClick();\n+    }, [isLikedState, onClick]);\n+    \n+    return {\n+        isLiked: isLikedState,\n+        onClick: handleClick,\n+        className,\n+    };\n+    };\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670930361410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n     className,\n   };\n };\n \n-export def\n\\ No newline at end of file\n+export defa\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1670930344345,
+            "name": "Commit-0",
+            "content": "\nconst logi"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "sourceFile": "src/components/SongCard/Controls/styles.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1670928649226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670928735009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-styles.ts\n\\ No newline at end of file\n+\n"
+                },
+                {
+                    "date": 1670928741580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,7 @@\n+import { styled } from 'styled-components';\n \n+export const Container = styled.div`\n+background-color: ${({ theme }) => theme.color.malibu100};\n+padding: 4px 8px;\n+border-radius: 47px;\n+`;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670928759421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-import { styled } from 'styled-components';\n+import { styled from 'styled-components';\n \n export const Container = styled.div`\n-background-color: ${({ theme }) => theme.color.malibu100};\n-padding: 4px 8px;\n-border-radius: 47px;\n\\ No newline at end of file\n-`;\n+  background-color: ${({ theme }) => theme.color.malibu100};\n+  padding: 4px 8px;\n+  border-radius: 47px;\n+`;\n"
+                },
+                {
+                    "date": 1670928781485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n-import { styled from 'styled-components';\n+import styled from 'styled-components';\n \n export const Container = styled.div`\n   background-color: ${({ theme }) => theme.color.malibu100};\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n+\n+\n"
+                },
+                {
+                    "date": 1670928786613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,35 @@\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n \n+export const PlayButton = styled.button`\n+  display: flex;\n+  align-items: center;\n+  justify-content: center;\n+  width: 40px;\n+  height: 40px;\n+  border-radius: 50%;\n+  background-color: ${({ theme }) => theme.color.grayscale900};\n+`;\n \n+export const PlayIcon = styled(PlayIconBase)`\n+  color: ${({ theme }) => theme.color.white};\n+`;\n+\n+export const Duration = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale700};\n+`;\n+\n+export const CategoryContainer = styled.div`\n+  background-color: ${({ theme }) => theme.color.malibu100};\n+  padding: 4px 8px;\n+  border-radius: 47px;\n+`;\n+\n+export const Category = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale900};\n+`;\n"
+                },
+                {
+                    "date": 1670928814536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,35 +5,4 @@\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n \n-export const PlayButton = styled.button`\n-  display: flex;\n-  align-items: center;\n-  justify-content: center;\n-  width: 40px;\n-  height: 40px;\n-  border-radius: 50%;\n-  background-color: ${({ theme }) => theme.color.grayscale900};\n-`;\n-\n-export const PlayIcon = styled(PlayIconBase)`\n-  color: ${({ theme }) => theme.color.white};\n-`;\n-\n-export const Duration = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale700};\n-`;\n-\n-export const CategoryContainer = styled.div`\n-  background-color: ${({ theme }) => theme.color.malibu100};\n-  padding: 4px 8px;\n-  border-radius: 47px;\n-`;\n-\n-export const Category = styled(DefaultText).attrs({\n-  variant: 'caption',\n-})`\n-  color: ${({ theme }) => theme.color.grayscale900};\n-`;\n"
+                },
+                {
+                    "date": 1670928820448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,35 @@\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n \n+export const PlayButton = styled.button`\n+  display: flex;\n+  align-items: center;\n+  justify-content: center;\n+  width: 40px;\n+  height: 40px;\n+  border-radius: 50%;\n+  background-color: ${({ theme }) => theme.color.grayscale900};\n+`;\n+\n+export const PlayIcon = styled(PlayIconBase)`\n+  color: ${({ theme }) => theme.color.white};\n+`;\n+\n+export const Duration = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale700};\n+`;\n+\n+export const CategoryContainer = styled.div`\n+  background-color: ${({ theme }) => theme.color.malibu100};\n+  padding: 4px 8px;\n+  border-radius: 47px;\n+`;\n+\n+export const Category = styled(DefaultText).attrs({\n+  variant: 'caption',\n+})`\n+  color: ${({ theme }) => theme.color.grayscale900};\n+`;\n"
+                },
+                {
+                    "date": 1670928847530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n \n+\n export const PlayButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n@@ -35,5 +36,5 @@\n export const Category = styled(DefaultText).attrs({\n   variant: 'caption',\n })`\n   color: ${({ theme }) => theme.color.grayscale900};\n-`;\n+`;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670928868433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n import styled from 'styled-components';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import {Text as DefaultText} from '$/components/Text';\n \n export const Container = styled.div`\n   background-color: ${({ theme }) => theme.color.malibu100};\n   padding: 4px 8px;\n"
+                },
+                {
+                    "date": 1670928876111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import {Text as DefaultText} from '$/components/Text';\n \n export const Container = styled.div`\n   background-color: ${({ theme }) => theme.color.malibu100};\n   padding: 4px 8px;\n   border-radius: 47px;\n `;\n \n-\n export const PlayButton = styled.button`\n   display: flex;\n   align-items: center;\n   justify-content: center;\n@@ -38,5 +37,5 @@\n export const Category = styled(DefaultText).attrs({\n   variant: 'caption',\n })`\n   color: ${({ theme }) => theme.color.grayscale900};\n-`;\n\\ No newline at end of file\n+`;\n"
+                },
+                {
+                    "date": 1670929289508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,11 @@\n \n export const PlayIcon = styled(PlayIconBase)`\n   color: ${({ theme }) => theme.color.white};\n `;\n+export const PlayIcon = styled(PlayIconBase)`\n+  color: ${({ theme }) => theme.color.white};\n+`;\n \n export const Duration = styled(DefaultText).attrs({\n   variant: 'caption',\n })`\n"
+                },
+                {
+                    "date": 1670929294900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,10 @@\n \n export const PlayIcon = styled(PlayIconBase)`\n   color: ${({ theme }) => theme.color.white};\n `;\n-export const PlayIcon = styled(PlayIconBase)`\n+\n+export const PauseIcon = styled(PlayIconBase)`\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929348125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import PlayIconBase from '$/assets/icons/play-fill.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670929356870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import PlayIconBase from '$/assets/icons/play-fill.svg';\n+import PauseIconBase from '$/assets/icons/pau.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n"
+                },
+                {
+                    "date": 1670929364683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import PauseIconBase from '$/assets/icons/pau.svg';\n+import PauseIconBase from '$/assets/icons/pause.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n@@ -22,9 +22,9 @@\n export const PlayIcon = styled(PlayIconBase)`\n   color: ${({ theme }) => theme.color.white};\n `;\n \n-export const PauseIcon = styled(PlayIconBase)`\n+export const PauseIcon = styled(PauseIconBase)`\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929582169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,15 @@\n+import PauseIconBase from '$/assets/icons/pause.svg';\n import PlayIconBase from '$/assets/icons/play-fill.svg';\n-import PauseIconBase from '$/assets/icons/pause.svg';\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n-  background-color: ${({ theme }) => theme.color.malibu100};\n-  padding: 4px 8px;\n-  border-radius: 47px;\n+display: flex;\n+flex-direction: row;\n+align-items: center;\n+margin-top: 12px;\n+gap: 12px;\n `;\n \n export const PlayButton = styled.button`\n   display: flex;\n"
+                },
+                {
+                    "date": 1670929677861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,13 @@\n import { Text as DefaultText } from '$/components/Text';\n import styled from 'styled-components';\n \n export const Container = styled.div`\n-display: flex;\n-flex-direction: row;\n-align-items: center;\n-margin-top: 12px;\n-gap: 12px;\n+  display: flex;\n+  flex-direction: row;\n+  align-items: center;\n+  margin-top: 12px;\n+  gap: 12px;\n `;\n \n export const PlayButton = styled.button`\n   display: flex;\n@@ -25,9 +25,9 @@\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const PauseIcon = styled(PauseIconBase)`\n-  color: ${({ theme }) => theme.color.white};\n+  fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n   variant: 'caption',\n"
+                },
+                {
+                    "date": 1670929743941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const PauseIcon = styled(PauseIconBase)`\n+w\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929749507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,10 @@\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const PauseIcon = styled(PauseIconBase)`\n-w\n+width: 16px;\n+height: 16px;\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929757373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,10 +25,10 @@\n   color: ${({ theme }) => theme.color.white};\n `;\n \n export const PauseIcon = styled(PauseIconBase)`\n-width: 16px;\n-height: 16px;\n+  width: 16px;\n+  height: 16px;\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929762751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n \n export const PauseIcon = styled(PauseIconBase)`\n   width: 16px;\n   height: 16px;\n+  v\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929768203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \n export const PauseIcon = styled(PauseIconBase)`\n   width: 16px;\n   height: 16px;\n-  v\n+  viewbox: 0 0 16 16;\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929795828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,8 @@\n \n export const PauseIcon = styled(PauseIconBase)`\n   width: 16px;\n   height: 16px;\n-  viewbox: 0 0 16 16;\n   fill: ${({ theme }) => theme.color.white};\n `;\n \n export const Duration = styled(DefaultText).attrs({\n"
+                },
+                {
+                    "date": 1670929861846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n   justify-content: center;\n   width: 40px;\n   height: 40px;\n   border-radius: 50%;\n+  border:\n   background-color: ${({ theme }) => theme.color.grayscale900};\n `;\n \n export const PlayIcon = styled(PlayIconBase)`\n"
+                }
+            ],
+            "date": 1670928649226,
+            "name": "Commit-0",
+            "content": "styles.ts"
+        }
+    ]
+}

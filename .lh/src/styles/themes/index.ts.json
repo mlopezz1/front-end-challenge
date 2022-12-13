@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/styles/themes/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1670928133395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1670928133394,
+            "name": "Commit-0",
+            "content": "const theme = {\n  color: {\n    white: '#ffffff',\n    black: '#111111',\n    grayscale900: '#22223D',\n    grayscale700: '#525068',\n    grayscale600: '#6B677D',\n    grayscale500: '#837E92',\n    grayscale300: '#B2ADBB',\n    grayscale200: '#C9CDDB',\n    grayscale100: '#E0DDE4',\n    grayscale50: '#F7F6F8',\n    malibu100: '#E1F4FB',\n    transparent: 'rgba(0,0,0,0)',\n  },\n  weight: {\n    bold: 700,\n    medium: 500,\n    regular: 400,\n  },\n  zIndex: {\n    negative: -1,\n    default: 0,\n    first: 1,\n    second: 2,\n  },\n};\n\nexport type Theme = typeof theme;\n\nexport default theme;\n"
+        }
+    ]
+}
