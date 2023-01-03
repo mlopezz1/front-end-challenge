@@ -2,10 +2,7 @@ import { buildExceptionFromApolloError } from '$/apollo/exception';
 import { SortInput } from '$/apollo/generated/globalTypes';
 import { applyIfSome } from '$/apollo/utils/functional';
 import useArrayNormalize from '$/apollo/utils/useArrayNormalize';
-import {
-  SongsQueryVariables,
-  useSongsQuery,
-} from '$/features/SongsList/Data/generated/song';
+import { useSongsQuery } from '$/features/SongsList/Data/generated/song';
 import { normalizeSong } from '$/features/SongsList/Models/Song';
 import { produce } from 'immer';
 import { useCallback, useMemo } from 'react';
@@ -21,10 +18,8 @@ const useSongs = ({ search, sort }: Props) => {
   const {
     data,
     loading,
-    refetch,
     fetchMore: fetchMoreSongs,
     error: apolloError,
-    ...other
   } = useSongsQuery({
     variables: {
       pagination: {
