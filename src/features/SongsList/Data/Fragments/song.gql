@@ -1,0 +1,13 @@
+fragment Song on Song {
+    id
+    name
+    author {
+        ...Author
+    }
+    description
+    audio {
+        ...Audio
+    }
+    genre
+    image
+}

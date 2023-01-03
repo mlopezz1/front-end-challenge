@@ -8,3 +8,7 @@ export const Container = styled.article`
 export const SearchInput = styled(DefaultSearchInput)`
   margin-block-start: 1.375rem;
 `;
+
+export const Content = styled.div`
+  margin-block-start: 2.5rem;
+`;

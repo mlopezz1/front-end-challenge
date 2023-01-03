@@ -1,6 +1,11 @@
 import { css } from 'styled-components';
 
 export const typography = {
+  small: css`
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+  `,
   title1: css`
     font-weight: ${({ theme }) => theme.weight.bold};
     font-size: 2.25rem;

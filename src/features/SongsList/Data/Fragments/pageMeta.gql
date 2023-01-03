@@ -1,0 +1,5 @@
+fragment PageMeta on PageMeta {
+    total
+    page
+    pages
+}

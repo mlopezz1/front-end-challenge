@@ -1,0 +1,5 @@
+fragment Audio on Audio {
+    id
+    url
+    autoPlay
+}

@@ -50,3 +50,10 @@ export const visuallyHidden = css`
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
 `;
+
+export const textOverflowEllipsis = css`
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+`;

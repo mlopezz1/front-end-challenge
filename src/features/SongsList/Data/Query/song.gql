@@ -1,0 +1,14 @@
+query Songs ($pagination: PaginationInput, $search: String, $sort: SortInput ) {
+    songs(
+        pagination: $pagination, 
+        search: $search, 
+        sort: $sort
+    ) {
+        songs {
+            ...Song
+        }
+        pageMeta {
+            ...PageMeta
+        }
+    }
+}

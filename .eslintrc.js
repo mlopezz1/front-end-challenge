@@ -22,6 +22,7 @@ module.exports = {
         rules: {
             // Disabled because Typescript takes care of that already.
             '@typescript-eslint/no-unused-vars': 'off',
+            '@typescript-eslint/no-floating-promises': 'warn',
             // This rule is enabled by eslint-config-airbnb and disabled by
             // eslint-plugin-prettier:
             // https://github.com/prettier/eslint-plugin-prettier/issues/65
